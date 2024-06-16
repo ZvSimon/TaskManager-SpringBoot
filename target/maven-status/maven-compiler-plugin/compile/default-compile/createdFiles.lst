@@ -5,13 +5,13 @@ com/codewithprojects/dto/TaskDTO.class
 com/codewithprojects/dto/SignupRequest.class
 com/codewithprojects/services/admin/TaskService.class
 com/codewithprojects/services/employee/EmployeeServiceImpl.class
+com/codewithprojects/configs/WebConfig.class
 com/codewithprojects/repository/CommentRepository.class
 com/codewithprojects/enums/UserRole.class
 com/codewithprojects/repository/TaskRepository.class
 com/codewithprojects/services/admin/TaskServiceImpl.class
 com/codewithprojects/services/employee/EmployeeService.class
 com/codewithprojects/dto/CommentDTO.class
-com/codewithprojects/configs/SimpleCorsFilter.class
 com/codewithprojects/controller/employee/EmployeeController.class
 com/codewithprojects/configs/WebSecurityConfiguration.class
 com/codewithprojects/services/jwt/UserServiceImpl$1.class
@@ -30,3 +30,4 @@ com/codewithprojects/services/jwt/UserServiceImpl.class
 com/codewithprojects/dto/AuthenticationRequest.class
 com/codewithprojects/services/jwt/UserService.class
 com/codewithprojects/services/auth/AuthServiceImpl.class
+com/codewithprojects/configs/WebConfig$1.class
