@@ -23,4 +23,6 @@ public class TaskDTO {
 
     private TaskStatus taskStatus;
 
+    private String projectName;
+
 }

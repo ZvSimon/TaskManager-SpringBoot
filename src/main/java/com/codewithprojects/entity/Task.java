@@ -22,7 +22,7 @@ public class Task {
     private String title;
 
     private String description;
-
+    private String projectName;
     private Date dueDate;
 
     private String priority;
@@ -36,6 +36,8 @@ public class Task {
     private TaskStatus taskStatus;
 
 
+
+
     public TaskDTO getTaskDTO() {
         TaskDTO taskDTO = new TaskDTO();
         taskDTO.setId(id);
@@ -43,6 +45,7 @@ public class Task {
         taskDTO.setDescription(description);
         taskDTO.setDueDate(dueDate);
         taskDTO.setPriority(priority);
+        taskDTO.setProjectName(projectName);
         taskDTO.setTaskStatus(taskStatus);
         taskDTO.setEmployeeId(user.getId());
         taskDTO.setEmployeeName(user.getName());

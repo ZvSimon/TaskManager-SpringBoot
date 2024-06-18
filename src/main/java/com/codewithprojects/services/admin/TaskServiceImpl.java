@@ -40,6 +40,7 @@ public class TaskServiceImpl implements TaskService {
             task.setDescription(taskDTO.getDescription());
             task.setPriority(taskDTO.getPriority());
             task.setDueDate(taskDTO.getDueDate());
+            task.setProjectName(taskDTO.getProjectName());
             task.setTaskStatus(TaskStatus.PENDING);
             task.setUser(optionalUser.get());
             return taskRepository.save(task);
@@ -47,6 +48,7 @@ public class TaskServiceImpl implements TaskService {
             return null;
         }
     }
+
 
     @Override
     public List<TaskDTO> getAllTasks() {
